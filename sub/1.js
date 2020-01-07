@@ -1,3 +1,5 @@
+const Rand = require('./randomNum')
+
 class Node{
     constructor(value, next){
 
@@ -36,14 +38,12 @@ class LinkedList{
 
 }
 
-var list = new LinkedList()
+var list = new LinkedList();
 
-var randomInt = function (max) {
-    return Math.floor( Math.random() * Math.floor(max) )
-};
+
 
 for(var i = 0;i < 10; i++){
-    list.add(i);
+    list.add(Rand.randomInt(100));
 }
 
 list.print();
