@@ -9,4 +9,5 @@ var x;
 
 rl.on('line', (x,y) => console.log(`input 1: ${x} \ninput2: ${y}`));
 
+rl.pause();
 console.log(x);
