@@ -1,6 +1,6 @@
 //index
 
-
+/*
 var add = (x,y) => x+y;
 
 const list = [
@@ -17,7 +17,11 @@ var multiply = function newFunc(x,y){
     return x*y;
 };
 
-console.log(multiply(2,2));
+console.log(multiply(2,2));*/
+ 
+
+
+
 
 
 
